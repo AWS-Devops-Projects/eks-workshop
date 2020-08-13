@@ -1,0 +1,14 @@
+/home/ec2-user/environment/eks-workshop/container-typescript/cdk-eks
+├── README.md
+├── bin
+|  └── cdk-eks.ts
+├── cdk.json
+├── jest.config.js
+├── lib
+|  ├── cdk-eks-ec2-stack.ts
+|  └── cdk-eks-stack.ts
+├── package-lock.json
+├── package.json
+├── test
+|  └── cdk-eks.test.ts
+└── tsconfig.json

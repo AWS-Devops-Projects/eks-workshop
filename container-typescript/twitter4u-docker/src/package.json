@@ -1,0 +1,14 @@
+{
+  "name": "twitter4u",
+  "version": "0.1.0",
+  "author": "Thanh Nguyen<nnthanh101@gmail.com>",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "aws-sdk": "2.x",
+    "fluent-logger": "^3.4.1",
+    "log4js": "~0.6.22",
+    "request": "^2.81.0",
+    "twit": "*"
+  }
+}

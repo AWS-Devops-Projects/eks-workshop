@@ -1,0 +1,68 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+googleAnalytics = "UA-158079754-2"
+
+title = "Modern Application Development"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  themeVariant = "workshop"
+  editURL = "https://github.com/nnthanh101/aws-cdk/edit/master/content/"
+  description = "Modern Application Development"
+  author = "nnthanh101@gmail.com"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Modern Application Development"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/nnthanh101/aws-cdk"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "showcase"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> DevOps Blog"
+identifier = "doc"
+url = "https://devops.job4u.io/"
+weight = 20
+
+
+[Languages.vi]
+title = "Modern Application Development"
+weight = 2
+languageName = "Tiếng Việt"
+
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/nnthanh101/aws-cdk"
+weight = 10
+
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "showcase"
+weight = 11
+
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> DevOps"
+identifier = "doc"
+url = "https://devops.job4u.io/"
+weight = 20
