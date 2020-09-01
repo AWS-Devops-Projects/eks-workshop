@@ -10,7 +10,7 @@ brew install hugo
 2. Git clone
 
 ```
-git clone https://github.com/nnthanh101/eks-workshop.git
+git clone https://github.com/AWS-Devops-Projects/eks-workshop.git
 
 cd eks-workshop
 npm run theme
