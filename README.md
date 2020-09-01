@@ -27,7 +27,7 @@ npm start
 # Submodule
 
 ```
-git submodule add https://github.com/nnthanh101/hugo-theme-learn themes/hugo-theme-learn
+git submodule add https://github.com/AWS-Devops-Projects/hugo-theme-learn themes/hugo-theme-learn
 ```
 
 # rm -rf .git/modules/themes/hugo-theme-learn .git/modules/hugo-theme-learn
