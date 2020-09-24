@@ -2,6 +2,7 @@
 
 A list of public repositories, content, and web from re:Invent 2019 Workshops. Many of the links are subject to be moved or completely removed at any point in time in the future.
 
+
 ```
 ## 8. container insights cloudwatch logs
 cat cwagent-fluentd-quickstart.yaml | sed "s/{{cluster_name}}/${CLUSTER_NAME}/;s/{{region_name}}/${AWS_REGION}/" | kubectl apply -f -
